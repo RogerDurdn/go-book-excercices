@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import {
+	"fmt"
+	"strings"
+}
 
 type Car struct {
 	name  string
@@ -12,6 +15,10 @@ func main() {
 	m["hello"] = 10
 	fmt.Println(m["hello"])
 	fmt.Println(m)
+
+	for i < count;{
+		
+	}
 
 	c := make(map[int]Car)
 	c[1] = Car{name: "cheby"}
@@ -38,6 +45,10 @@ func main() {
 	elm, ok = ml[1]
 	if !ok {
 		fmt.Println("shuch a bad thing!")
+	}
+
+	for i := 0; i < count; i++ {
+		
 	}
 
 }

@@ -19,5 +19,5 @@ func do(s string) map[string]int {
 		}
 		m[fiels[i]] = val
 	}
-	return
+	return m
 }
